@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+
+
+    <!--css 연결-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header_footer.css">
+
+
+    <!--Swiper js-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!--Jquery,javascript연결-->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+
+    <script src="js/booklist.js"></script>
+    <!-- <script src="js/main.js"></script> -->
+
+
+    <style>
+        *{ text-decoration: none; list-style: none; margin: 0; padding: 0; font-family: "Noto Sans KR", sans-serif;}
+      </style>
+
+</head>
+<body>
+    <!--header-->
+    <header>
+        <div class="header_welcome">
+          <div class="header_welcome-top">
+            <div id="welcom_top_box">
+              <img src="img/i_1200_701_64331f6532184a7fbb221a5b8f29ce55.jpg" alt="... ">
+            </div>
+          </div>
+          <div class="header_welcome-service">
+            <div id="wave_icon_wrap">
+              <ul>
+                <li><a href = "sub.html"><img src="img/wave_blue.png" alt="...">
+                  <p>eBook</p></a>
+                
+                </li>
+                <li><a href ="sub.html"><img src="img/wave_sky.png" alt="...">
+                  <p>sam</p></a>
+                </li>
+                <li><a href ="sub.html"><img src="img/wave_orange.png" alt="...">
+                  <p>핫트랙스</p></a>
+                </li>
+                <li><a href ="sub.html"><img src="img/wave_brown.png" alt="...">
+                  <p>매장안내</p></a>
+                </li>
+                <li><a href ="sub.html"><img src="img/wave_carrot.png" alt="...">
+                  <p>톡소다</p></a>
+                </li>
+                <li><a href ="sub.html"><img src="img/wave_blue.png" alt="...">
+                  <p>스토리</p></a>
+                </li>
+    
+              </ul>
+    
+            </div>
+    
+          </div>
+    
+          <div class="header_welcome-search">
+    
+            <a href="index.html"> <img src="img/img_logo_kyobo@2x.png" alt="" id="logo"></a>
+    
+            <div id="search_input">
+    
+              <div>
+                <span>통합검색</span>
+                <span><img src="img/arw1_header_search@2x.png" alt="..."></span>
+              </div>
+    
+              <div class="mini_stick"></div>
+    
+              <input type="text" id="serch_box" placeholder="당신의 인생을 바꿀 책! 곽정은 작가">
+    
+    
+              <a href="#" id="glass"> <img src="img/btn_header_search@2x.png" alt="..."></a>
+    
+    
+            </div>
+    
+            <div id="my_btn">
+              <a href="sub.html"><img src="img/btn_header_cart@2x.png" alt=""></a>
+              <a href="sub.html"><img src="img/btn_header_my@2x.png" alt=""></a>
+            </div>
+    
+    
+          </div>
+    
+          <div class="header_welcome-nav">
+    
+            <div id="hamburger">
+              <img src="img/btn_anb_open@2x.png" alt="...">
+            </div>
+    
+            <ul id="nav1">
+              <li><a href = "sub.html" style="color: #4dac27 !important;">대학교재🎓</a></li>
+              <li><a href = "sub.html" style="color: #4dac27 !important;">초중고🏫</a></li>
+              <li><a href = "sub.html">베스트</a></li>
+              <li><a href = "sub.html">신상품</a></li>
+              <li><a href = "sub.html">이벤트</a></li>
+              <li><a href = "sub.html">사은품</a></li>
+              <li><a href = "sub.html">PICKS</a></li>
+              <li><a href = "sub.html">CASTing</a></li>
+              <li><a href = "sub.html">교보ONLY</a></li>
+            </ul>
+    
+            <div>
+              <ul id="nav2">
+                <li><a href="#">할인혜택</a></li>
+                <li><a href="#">출석체크</a></li>
+                <li><a href="#"><img src="img/plus.png" alt="..."></a></li>
+              </ul>
+    
+              <div id="school_nav">
+                <img src="img/i_95_44_3abdc94d78664f8da866ca749cb7cc6a.jpg" alt="...">
+              </div>
+    
+            </div>
+          </div>
+    
+    
+        </div>
+    
+    </header>
+
+
+    <div id = "top_auto_banner">
+
+        <div class="swiper top_auto_swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><p>📢 신규회원 누구나<br>최대 25,000원 할인 !</p><img src ="img/slider1.png" alt= "..."></div>
+              <div class="swiper-slide"><p > 인생에 극적인 전환점을<br>만드는 마인드셋 에세이</p><img src = "img/slider2.jpg" alt = "..."></div>
+              <div class="swiper-slide"><p>&quot;난 교보문고만 써!&quot;<br>그 뿌듯함 200% 늘려드려요</p><img src = "img/slider3.jpg" alt = "..."></div>
+              <div class="swiper-slide"><p>핫트랙스 출석체크 하셨나요?<br> 최대 5,000 포인트 적립 !</p><img src = "img/sldier5.jpg" alt = "..."></div>
+              <div class="swiper-slide"><p>The Oscars 2024 🏆<br>아카데미 시상식 연관도서전!</p><img src = "img/slider6.jpg" alt = "..."></div>
+              <div class="swiper-slide"><p>낯설거나 새로운<br>뜻밖의 길에 대한 해답 🍀</p><img src = "img/slider8.jpg" alt = "..."></div>
+              <div class="swiper-slide"><p>우리 학과 책 살 땐, 교보대학교🏫<br>쿠폰부터 사은품까지 든든하게</p><img src = "img/slider9.jpg" alt = "..."></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+
+    </div>
+
+
+    <div id="marketing_icon_wrap">
+
+
+        <div> <a href="#"><img src="img/ico_welcome_marketing_1.svg" alt="..."></a>
+          <p>할인혜택</p>
+        </div>
+        <div> <a href="#"><img src="img/ico_welcome_marketing_2.svg" alt="..."></a>
+          <p>핫딜</p>
+        </div>
+        <div> <a href="#"><img src="img/ico_welcome_marketing_3.svg" alt="..."></a>
+          <p>Picks</p>
+        </div>
+        <div> <a href="#"><img src="img/ico_welcome_marketing_4.svg" alt="..."></a>
+          <p>교보ONLY</p>
+        </div>
+        <div> <a href="#"><img src="img/ico_welcome_marketing_5.svg" alt="..."></a>
+          <p>이달의 책</p>
+        </div>
+        <div> <a href="#"><img src="img/ico_welcome_marketing_6.svg" alt="..."></a>
+          <p>책 그리고 꽃</p>
+        </div>
+        <div> <a href="#"><img src="img/ico_welcome_marketing_8.svg" alt="..."></a>
+          <p>선물하기</p>
+        </div>
+        <div> <a href="#"><img src="img/ico_welcome_marketing_9.svg" alt="..."></a>
+          <p>바로드림</p>
+        </div>
+        <div> <a href="#"><img src="img/ico_welcome_marketing_10.svg" alt="..."></a>
+          <p>추천</p>
+        </div>
+        <div> <a href="#"><img src="img/ico_welcome_marketing_12.svg" alt="..."></a>
+          <p>인물&작품</p>
+        </div>
+        <div> <a href="#"><img src="img/ico_welcome_marketing_13.svg" alt="..."></a>
+          <p>손글쓰기캠페인</p>
+        </div>
+        <div> <a href="#"><img src="img/ico_welcome_marketing_14.svg" alt="..."></a>
+          <p>명강의Big10</p>
+        </div>
+        <div> <a href="#"><img src="img/ico_welcome_marketing_15.svg" alt="..."></a>
+          <p>기프트카드</p>
+        </div>
+
+    
+      </div>
+
+
+      <div id="main_content_wrap">
+
+        <div class="title">
+          <h2>오늘의 선택</h2>
+        </div>
+      
+        <div style="display: flex; width: 1200px; height: 400px; margin: 0 auto;   justify-content: space-between;">
+        <div class = "book4"></div>
+        <div class = "book4"></div>
+        <div class = "book4"></div>
+        <div class = "book4"></div>
+        </div>
+      
+      
+      </div>
+
+      <div class="two_book_ads_wrap">
+        <div>
+          <img src="../img/ad1.jpg" alt="...">
+          <img src="../img/ad2.jpg" alt="...">
+        </div>
+      </div>
+
+
+      <div id="rise_sudden">
+        <div class="title">
+          <h2>급상승! 많이 보고 있는 제품</h2>
+        </div>
+   <div class="swiper rise_swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide"></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+
+      </div>
+    
+      <div id="picks_wrap">
+        <br><br><br><br>
+        <div id="picks_wrap_inner">
+          <div id="title_pick" class="title_xxl_wrap">
+            <img src="../img/ico_welcome_picks.svg" alt="...">
+          </div>
+    
+    
+          <div id="picks_wrap_inner_wrap">
+    
+            <div>
+    
+              <div id="pwiw_first_box">
+                <p style="color: #3c9a17; font-size: 15px;">발견의 기쁨을 선물합니다.</p>
+                <p style="font-size: 25px; font-weight: bold;">취향을 분석해 꼭 맞는 책을<br>
+                  추천해드릴게요! </p>
+    
+                <div id="btn_pick_login"><a href="#">
+                    <p>로그인하고 더 많은 추천 받기</p>
+                  </a>
+                </div>
+              </div>
+    
+            </div>
+    
+    
+    
+    
+            <div class="pick_books">
+              <p class="picks_titles_book">종합추천</p>
+    
+              <div class="book1"></div>
+    
+            </div>
+    
+            <div class="pick_books">
+              <p class="picks_titles_book">작가 Picks</p>
+              <div class="book1"></div>
+    
+            </div>
+    
+    
+            <div class="pick_books">
+              <p class="picks_titles_book">내 마음대로 Picks</p>
+              <div class="book1"></div>
+    
+            </div>
+    
+    
+            <div class="pick_books">
+              <p class="picks_titles_book">소울메이트 Picks</p>
+              <div class="book1"></div>
+    
+            </div>
+    
+    
+    
+          </div>
+    
+    
+        </div>
+    
+      </div>
+
+      <!--베스트, 샐러리-->
+      <div id="best_wrap">
+
+        <div class="title">
+          <span class="Best">베스트</span>
+          <span class="List">셀러리</span>
+        </div>
+    
+     
+        <section>
+          <h5 style="color: #ffffff;">.</h5>
+    
+          <div id="list_best">
+            <div class="box"><span>1</span></div>
+            <div class="box"><span>2</span></div>
+            <div class="box"><span>3</span></div>
+            <div class="box"><span>4</span></div>
+            <div class="box"><span>5</span></div>
+            <div class="box"><span>6</span></div>
+            <div class="box"><span>7</span></div>
+            <div class="box"><span>8</span></div>
+            <div class="box"><span>9</span></div>
+            <div class="box"><span>10</span></div>
+          </div>
+    
+    
+          <div id="list_steady">
+            <div class="box"><span>1</span></div>
+            <div class="box"><span>2</span></div>
+            <div class="box"><span>3</span></div>
+            <div class="box"><span>4</span></div>
+            <div class="box"><span>5</span></div>
+            <div class="box"><span>6</span></div>
+            <div class="box"><span>7</span></div>
+            <div class="box"><span>8</span></div>
+            <div class="box"><span>9</span></div>
+            <div class="box"><span>10</span></div>
+          </div>
+    
+        </section>
+    
+      </div>
+    
+      
+  <div id="ad_img">
+    <p id="date">2024.03.12 기준</p>
+    <img src="img/bigwide0308.jpg" alt="#" style="border-radius: 9px;">
+  </div>
+
+  <div id="kyobo_original_wrap">
+    <div class="title">
+      <h2>교보 오리지널</h2>
+      <span><b>더보기 +</b></span></div>
+
+        <!-- Swiper -->
+        <div class="swiper original_swiper">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+
+  </div>
+
+
+  <div id = "fade_slide">
+   
+    <div class="swiper fade_slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style=" background-image:url('img/zc9nnysc1-720.jpg')">
+          
+            <p>『이반 일리치의 죽음』톨 <br> 스토이의 사상과 철학이 집 <br> 약된 경이로운 걸작</p>
+
+            <div class="video_boxs" style=" background-image:url('img/zc9nnysc2-720.jpg')"></div>
+
+          </div>
+     
+          <div class="swiper-slide" style=" background-image:url('img/kjgt9oql1-720.jpg')">
+
+            <p>충주시 홍보맨 <br> 김성태 작가와의 만남</p>
+
+            <div class="video_boxs" style=" background-image:url('img/kjgt9oql2-720.jpg')">
+            </div>
+
+          </div>
+
+          <div class="swiper-slide" style=" background-image:url('img/2tpoecgm1-720.jpg')">
+          
+            <p>시는 첨삭하면 <br>안 되는 거 아닌가요?</p>
+
+            <div class="video_boxs" style="background-image:url('img/2tpoecgm2-720.jpg'); background-repeat: no-repeat;">
+            </div>
+
+          </div>
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script src="js/main.js"></script>
+
+  <footer>
+
+    <div id="footer_header">
+
+      <div id="footer_inner">
+        <span>공지사항</span>
+        <a href="#">문화상품권-교보캐시 전환 서비스 일시 중단 안내 (3/21)</a>
+        <a href="#" style=" font-size: 15px; font-weight: 500; color: black; text-decoration: none;">더보기 +</a>
+        <span>당첨자 발표</span>
+        <a href="#">[문학/만화] MD가 골라드림①밸런타인 로맨스 당첨자 발표</a>
+        <a href="#">더보기 +</a>
+
+      </div>
+
+
+      <div id="footer_main">
+
+        <div>
+          <div>
+            <ul style="display: flex; flex-direction: column;">
+              <li><b>회원혜택</b></li>
+              <li>Prestige Lounge</li>
+              <li>신규회원 혜택</li>
+              <li>등급별 혜택</li>
+              <li>출석체크</li>
+            </ul>
+          </div>
+
+          <div>
+            <ul style="display: flex; flex-direction: column;">
+              <li><b>쇼핑 TIP</b></li>
+              <li>제휴포인트/상품권</li>
+              <li>교보문고 기프트카드</li>
+              <li>대량구매</li>
+              <li>리딩트리서비스(독서경영)</li>
+            </ul>
+          </div>
+
+
+          <div>
+            <ul style="display: flex; flex-direction: column;">
+              <li><b>빠른 서비스</b></li>
+              <li>북클럽카드 등록</li>
+              <li>영수증 후 적립</li>
+              <li>교보캐시 조회·충전</li>
+              <li>교보e캐시 조회·충전</li>
+              <li>기프트카드 조회·충전</li>
+              <li>협력사 여러분</li>
+            </ul>
+          </div>
+
+          <div>
+            <ul style="display: flex; flex-direction: column;">
+              <li><b>교보문고 소식</b></li>
+              <li>인스타그램(교보문고)</li>
+              <li>인스타그램(인터넷교보문고)</li>
+              <li>페이스북(교보문고)</li>
+              <li>트위터</li>
+              <li>유튜브</li>
+            </ul>
+          </div>
+
+          <div>
+            <ul style="display: flex; flex-direction: column;">
+              <li><b>FAQ</b></li>
+              <li>주문·결제</li>
+              <li>eBook</li>
+              <li>도서·상품정보</li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="footer_body">
+
+      <div id="footer_body_inner">
+        <div id="footer_logo_box">
+          <img src="img/img_logo_kyobo@2x.png" alt="...">
+
+
+          <div>
+            <button class="footer_list"> Family site</button>
+
+            <div>
+              <a href="#"><img src="img/btn_footer_sns_youtube@2x.png" alt="..."></a>
+              <a href="#"><img src="img/btn_footer_sns_fb@2x.png" alt="..."></a>
+              <a href="#"><img src="img/btn_footer_sns_insta@2x.png" alt="..."></a>
+            </div>
+          </div>
+        </div>
+        <div id="footer_body_left">
+
+          <div id="footer_left_nav">
+            <ul>
+              <li>회사소개</li>
+              <li>이용약관</li>
+              <li>개인정보처리방침</li>
+              <li>청소년보호정책</li>
+              <li>대량주문안내</li>
+              <li>협력사여러분</li>
+              <li>채용정보</li>
+              <li>광고소개</li>
+            </ul>
+            <br>
+            <ul>
+              <li>대표이사 : 안병헌, 김상훈</li>
+              <li>서울특별시 종로구 종로 1</li>
+              <li>사업자등록번호: 102-81-11670</li>
+            </ul>
+
+            <ul>
+              <li><b>대표전화: 1544-1900(발신자 부담전화)</b></li>
+              <li>FAX : 0502-987-5711(지역번호 공통)</li>
+              <li>서울특별시 통신판매업신고번호: 제 653호 <button>사업자정보확인</button></li>
+            </ul>
+
+
+          </div>
+
+
+        </div>
+
+
+        <div id="footer_body_right">
+
+          <div>
+            <span>토스페이먼츠 구매안전서비스</span>
+            <button>서비스 가입 확인</button>
+          </div>
+
+          <br>
+          <div>
+            <span>고객님은 안전거래를 위해 현금 등으로 결제시 저희 쇼핑몰에서 가입한 토스페이먼츠와 구매안전서비스를 이용하실 수 있습니다.</span>
+          </div>
+          <br>
+
+          <div style="display: flex; justify-content: space-around;">
+            <div style="display: flex;">
+              <a href="#"><img src="img/img_mark_isms@2x.png" alt="..." style="width: 33px; height: 33px;"></a>
+              <span>정보보호관리체계<br>ISMS 인증획득</span>
+            </div>
+
+            <div>
+              <span>[인증범위] 인터넷 교보문고 및 브랜드 서비스 운영</span>
+              <br>
+              <span>[유효기간] 2023.11.15~2026.11.14</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </footer>  
+
+</body>
+</html>
+

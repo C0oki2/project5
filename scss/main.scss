@@ -1,0 +1,497 @@
+
+@import "variable","header_footer";
+
+@mixin title_h2 {
+
+    font {
+        size: 30px;
+        color: #000000;
+        // padding-top: 60px;
+    }
+
+    padding-top: 100px;
+    padding-bottom: 30px;
+
+} 
+
+@mixin title_xxl_wraps {
+
+    width: $wd1200;
+    height: 70px;
+    margin: 0 auto;
+    
+}
+
+
+/*h2 파트들*/
+.title {
+    @include title_h2;
+    @include title_xxl_wraps;
+    margin-bottom: -39px;
+
+}
+
+.box {
+
+    width: 200px;
+    height: 400px;
+    // background-color: red;
+    float: left;
+    margin: 20px;
+    padding-bottom: 10px;
+
+
+    span {
+
+        width: 22px;
+        height: 22px;
+        background-color: #595959;
+        padding: 6px 11px;
+        border-radius: 10px 0px 10px 0px;
+        font-size: 12px;
+        color: #ffffff;
+        font-weight: 500;
+        line-height: 10px;
+        
+        
+    }
+}
+
+
+
+.mini_stick {
+
+    position: absolute;
+    display: block;
+    width: 1px;
+    height: 12px;
+    top: 40%;
+    left: 154px;
+    background-color: #eaeaea;
+}
+
+
+// #banner_wraps {
+//     width: 1440px;
+//     height: 572px;
+//     margin: 0 auto;
+//     background-color: ;
+// }
+
+/*탑 배너*/
+#top_auto_banner {
+    width: 100%;
+    height: 800px;
+    // background-color: red;
+    position: relative;
+
+    .top_auto_swiper {
+        width: 100%;
+        height: 700px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+
+        p {
+            font-size: 40px;
+            font-weight: bold;
+            position: absolute;
+            top: 0%;
+            left: 15%;
+
+        }
+
+      }
+  
+      .swiper-slide img {
+        width: 92vw;
+        position: absolute;
+        right: 0;
+        bottom: 13%;
+    
+        
+       
+      }
+
+
+    }
+
+/*아이콘 13개 나열되어있는 부분*/
+#marketing_icon_wrap {
+    width: 1200px;
+    height: 132px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+            p {
+                color: #595959;
+                font-size: 14px;
+                line-height: 22px;
+                letter-spacing: -0.01em;
+                text-align: center;
+            }
+   
+}
+
+#main_content_wrap {
+    width: 1200px;
+    height: 500px;
+    background-color: #ffffff;
+    position: relative;
+    margin: 0 auto;
+
+    .book4 {
+
+        width: 280px;
+        height: 400px;
+
+        img {
+            width: 70%;
+            padding-left: 15%;
+            padding-top: 8%;
+        }
+
+        h3 {
+            text-align: center;
+
+            a{
+                text-decoration: none;
+                color: #000000;
+                
+            }
+        }
+
+        h6 {
+            text-align: center;
+        }
+    }
+   
+    }
+
+/*두 개 회색 책 광고 띄어진 부분*/
+.two_book_ads_wrap {
+    width: 100%;
+    height: 180px;
+    margin-top: 150px;
+
+
+    div {
+
+        width: 1200px;
+        height: 180px;
+        margin: 0 auto;
+
+        img {
+
+            border-radius: 9px;
+        }
+    }}
+
+/*급상승! 많이 보고 있는 제품 부분*/
+
+#rise_sudden {
+
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    position: relative;
+
+    .rise_swiper {
+        width: 100%;
+        height: 77%;
+        position: absolute;
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        img {
+
+            width: 150px;
+        }
+
+        h3 {
+            a { color: #000000; }
+        }
+
+      }
+  
+}
+
+/*연두색 Pick 부분*/
+#picks_wrap {
+    width: 100%;
+    height: 596px;
+    background-color: #f5faf2;
+
+    #picks_wrap_inner {
+        width: 1200px;
+        height: 596px;
+        margin: 0 auto;
+
+        #picks_wrap_inner_wrap {
+
+            width: 1200px;
+            height: 357px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+
+            div:nth-of-type(1) {
+
+                width: 357px;
+                height: 357px;
+                position: relative;
+
+                #pwiw_first_box {
+                    position: absolute;
+                    width: 327px;
+                    height: 252px;
+                    top: 25%;
+                }
+
+                #btn_pick_login {
+                    width: 240px;
+                    height: 50px;
+                    background-color: #4dac27;
+                    border-radius: 9px;
+                    font-weight: bold;
+                    top:30%;
+
+                    a {
+                        text-decoration: none;
+                        
+                        p{
+                            font-size: 16px;
+                            font-weight: bold;
+                            color: #ffffff;
+                            text-align: center;
+                            padding-top: 10px;
+                        }
+                    }}}
+
+            div:not(:nth-of-type(1)){
+
+                width: 200px;
+                height: 357px;
+                border : {
+                    style: 0.3px solid #eaeaea;
+                    radius: 9px;
+                }
+                
+                background-color:#ffffff;
+
+                .book1 {
+
+                    width: 200px;
+                    height: 301px;
+
+                    img{
+                        width: 118px;
+                        height: 164.61px;
+                        padding-left: 10px;
+                        padding-top: 10%;
+                    }
+
+                    text-align: center;
+                    a{
+                        text-decoration: none;
+                        color: #000000;
+                    }
+                }
+
+            p{
+                        text-align: center;
+                        font: {
+                             size: 14px;
+                             weight: bold;
+                        }
+                        padding-top: 10px;
+                    }
+            }
+
+            .books {
+                width: 200px;
+                height: 357px;
+                position: relative; 
+            }
+        }   
+    }
+}
+
+
+
+/*베스트 책 나열되어있는 부분*/
+#best_wrap {
+    width: 100%;
+    height: 968.92px;
+
+.Best { 
+    font-size: 30px;
+    font-weight: 500;
+    background-color: #ffffff;
+    color: #000000;}
+
+.List {
+    font-size: 30px;
+    font-weight: 500;
+    background-color: #ffffff;
+    color: #777777;
+}
+
+.active {
+    background-color: rgb(148, 255, 196);
+    border-radius:12px;
+    padding: 2px;
+    color: #000000;
+}
+
+section {
+
+    width: 1200px;
+    height: 903.14px;
+    margin: 0 auto;
+
+    #list_best, #list_steady  {
+        img {
+        width: 200px;
+        height: 300px;
+        margin-top: 10px;
+    }
+
+    h3 { a {text-decoration: none; color: #000000; }}
+
+    }
+
+    #list_steady {
+        display: none;
+    }
+}
+
+}
+
+/*광고 1200 짜리 긴 거 한 개*/
+#ad_img {
+    width: 1200px;
+    height: 350px;
+    margin: 0 auto;
+
+    #date {
+        text-align: right;
+        margin-bottom: 110px;
+        color: #595959;
+    }
+    
+}
+
+/*교보 오리지널 부분*/
+#kyobo_original_wrap {
+    width: 1200px;
+    height: 510.51px;
+    margin: 0 auto;
+    
+    .title {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .original_swiper {
+        width: 100%;
+        height: 100%;
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        img {
+
+            width: 150px;
+        }
+
+        h3 {
+            a { color: #000000; }
+        }
+      }
+
+
+
+
+
+
+
+}
+
+
+/*fade_slide*/
+
+#fade_slide{
+
+    width: 100%;
+    height: 700px;
+    // background-color: pink;
+    margin-top: 170px;
+
+    .fade_slider {
+        width: 100%;
+        height: 100%;
+      }
+  
+      .swiper-slide {
+        background-position: center;
+        background-size: 100% 80%;
+        background-repeat: no-repeat;
+        position: relative;
+        
+
+        p {
+            font-size: 40px;
+            color: #fff;
+            position: absolute;
+            top: 25%;
+            left: 20%;
+        }
+
+        .video_boxs {
+            width: 721px;
+            height: 406px;
+            border-radius: 9px;
+            position: absolute;
+            top: 41%;
+            left: 50%;
+        }
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+   
+      }
+
+}
+
+

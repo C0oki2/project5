@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+
+
+  <!--css-->
+  <link rel="stylesheet" href="css/header_footer.css">
+  <link rel="stylesheet" href="css/sub.css">
+
+  <!--bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!--Swiper js-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+<!--Jquery cdn, Javascript 연결-->
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.1.min.js"></script>
+
+<script src="is/sub.js"></script>
+<script src="js/booklist.js"></script>
+
+  <style>
+    *{ text-decoration: none; list-style: none; margin: 0; padding: 0; font-family: "Noto Sans KR", sans-serif;}
+  </style>
+</head>
+<body>
+
+
+    <!--header-->
+    <header>
+      <div class="header_welcome">
+        <div class="header_welcome-top">
+          <div id="welcom_top_box">
+            <img src="img/i_1200_701_64331f6532184a7fbb221a5b8f29ce55.jpg" alt="... ">
+          </div>
+        </div>
+        <div class="header_welcome-service">
+          <div id="wave_icon_wrap">
+            <ul>
+              <li><a href = "sub.html"><img src="img/wave_blue.png" alt="...">
+                <p>eBook</p></a>
+              
+              </li>
+              <li><a href ="sub.html"><img src="img/wave_sky.png" alt="...">
+                <p>sam</p></a>
+              </li>
+              <li><a href ="sub.html"><img src="img/wave_orange.png" alt="...">
+                <p>핫트랙스</p></a>
+              </li>
+              <li><a href ="sub.html"><img src="img/wave_brown.png" alt="...">
+                <p>매장안내</p></a>
+              </li>
+              <li><a href ="sub.html"><img src="img/wave_carrot.png" alt="...">
+                <p>톡소다</p></a>
+              </li>
+              <li><a href ="sub.html"><img src="img/wave_blue.png" alt="...">
+                <p>스토리</p></a>
+              </li>
+  
+            </ul>
+  
+          </div>
+  
+        </div>
+  
+        <div class="header_welcome-search">
+  
+          <a href="index.html"> <img src="img/img_logo_kyobo@2x.png" alt="" id="logo"></a>
+  
+          <div id="search_input">
+  
+            <div>
+              <span>통합검색</span>
+              <span><img src="img/arw1_header_search@2x.png" alt="..."></span>
+            </div>
+  
+            <div class="mini_stick"></div>
+  
+            <input type="text" id="serch_box" placeholder="당신의 인생을 바꿀 책! 곽정은 작가">
+  
+  
+            <a href="#" id="glass"> <img src="img/btn_header_search@2x.png" alt="..."></a>
+  
+  
+          </div>
+  
+          <div id="my_btn">
+            <a href="sub.html"><img src="img/btn_header_cart@2x.png" alt=""></a>
+            <a href="sub.html"><img src="img/btn_header_my@2x.png" alt=""></a>
+          </div>
+  
+  
+        </div>
+  
+        <div class="header_welcome-nav">
+  
+          <div id="hamburger">
+            <img src="img/btn_anb_open@2x.png" alt="...">
+          </div>
+  
+          <ul id="nav1">
+            <li><a href = "sub.html" style="color: #4dac27 !important;">대학교재🎓</a></li>
+            <li><a href = "sub.html" style="color: #4dac27 !important;">초중고🏫</a></li>
+            <li><a href = "sub.html">베스트</a></li>
+            <li><a href = "sub.html">신상품</a></li>
+            <li><a href = "sub.html">이벤트</a></li>
+            <li><a href = "sub.html">사은품</a></li>
+            <li><a href = "sub.html">PICKS</a></li>
+            <li><a href = "sub.html">CASTing</a></li>
+            <li><a href = "sub.html">교보ONLY</a></li>
+          </ul>
+  
+          <div>
+            <ul id="nav2">
+              <li><a href="#">할인혜택</a></li>
+              <li><a href="#">출석체크</a></li>
+              <li><a href="#"><img src="img/plus.png" alt="..."></a></li>
+            </ul>
+  
+            <div id="school_nav">
+              <img src="img/i_95_44_3abdc94d78664f8da866ca749cb7cc6a.jpg" alt="...">
+            </div>
+  
+          </div>
+        </div>
+  
+  
+      </div>
+  
+    </header>
+    
+
+    <!--알사탕 제조법 - 미니북(112*155mm)  | 백희나 그림책-->
+    <div id = "books_title">
+        <ul>
+            <li>알사탕 제조법</li>
+            <li>- 미니북(112*155mm)</li>
+            <li> | 백희나 그림책</li>
+        </ul>
+
+        <ul>
+            <li><a href ="#">백희나 (지은이)</a></li>
+            <li><a href ="#">Storybowl(스토리보울)</a></li>
+            <li><a href = "#">2024-03-21</a></li>
+        </ul>
+    </div>
+
+    <!--알사탕 제조법 노트와 스티커 (<알사탕 제조법> 포함 국내도서 2만원 이상 구매)-->
+    <div id = "books_info_table" style="display: flex;">
+        <div id = "books_main_img">
+        </div>
+
+        <div style="display: flex; flex-direction: column;" >
+        <table>
+            <tr><th colspan="2" style="color: rgb(0, 186, 65);">알사탕 제조법 노트와 스티커 (&lt;알사탕 제조법&gt; 포함 국내도서 2만원 이상 구매)</th></tr>
+
+            <tr>
+                <td>정가</td>
+                <td>10,000원</td>
+            </tr>
+
+            <tr>
+                <td>판매가</td>
+                <td>9,000원 (10%, 1,000원 할인)</td>
+            </tr>
+
+            <tr>
+                <td>마일리지</td>
+                <td>마일리지
+                    500원(5%) + 멤버십(3~1%)<br>
+                    + 5만원이상 구매시 2,000원
+                <img src = "https://image.aladin.co.kr/img/shop/2022/p_arrow_down.gif" alt = "아래 버튼"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <!-- <img src = "https://cdn.pixabay.com/animation/2023/08/10/06/24/06-24-17-858_512.gif" alt = "시계"> -->
+                    배송일
+                 </td>
+                <td><span>양탄자배송</span><br>
+                    오후 1시까지 주문하면 밤 11시 <b>잠들기전 배송 </b><br>
+                    (중구 서소문로 89-31 기준) <a href = "#">지역변경</a></td>
+            </tr>
+
+            <tr>
+                <td>종합 주간 1위</td>
+                <td>| Sales Point : <b>71,120</b> <img src = "https://image.aladin.co.kr/img/shop/2022/p_arrow_down.gif" alt = "아래버튼"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><img src = "https://image.aladin.co.kr/img/shop/2012/icon_star10.png" alt = "...">9.7 <a href ="#" style="margin-left: 20px;">100자평(5)</a>  <a href ="#" style="margin-left: 20px;">리뷰(1)</a> <button style="margin-left: 20px;">이 책 어때요?</button> </td>
+            </tr>
+
+            <tr>
+               <td>수량</td>
+               <td> <select style="padding: 10px;">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    </select></td>
+            </tr>
+        </table>
+
+        <div id = "buttons">
+          <button id = "btn1">장바구니 담기</button>
+          <button id = "btn2">바로구매</button>
+          <button id = "btn3">선물하기</button>
+          <button id = "btn4">보관함+</button>
+        </div>
+
+        <div style=" margin-top: 30px;">
+            <span>전자책 출간알림 신청<img src = "https://image.aladin.co.kr/img/shop/2022/p_arrow_right.gif" alt ="..."></span>
+            <span>중고 등록알림 신청<img src = "https://image.aladin.co.kr/img/shop/2022/p_arrow_right.gif" alt ="..."></span>
+            <span>중고로 팔기 <img src = "https://image.aladin.co.kr/img/shop/2022/p_arrow_right.gif" alt ="..."></span>
+        </div>
+    </div>
+
+    </div>
+
+
+    <!--한눈에 펼쳐보는 세시 풍속 그림책-->
+    <div id = "books_4_ad">
+        <img src ="https://image.aladin.co.kr/img/adbn/book/2024/01/240322_pq_ad01.jpg" alt = "..." >
+        <img src="https://image.aladin.co.kr/img/adbn/book/2024/01/240322_pq_ad02.jpg" alt="...">
+        <img src="https://image.aladin.co.kr/img/adbn/book/2024/01/240322_pq_ad03.jpg" alt="...">
+        <img src="https://image.aladin.co.kr/img/adbn/book/2024/01/240322_pq_ad04.jpg" alt="...">
+    </div>
+
+    <!--출판사 제공 북트레일러-->
+    <div id ="books_trailer_video" style="display: flex;">
+
+        <h4>출판사 제공 <br> 북트레일러</h4>
+
+           <iframe width="916" height="515" src="https://www.youtube.com/embed/sT-QIx0MniI" title="알사탕제조법 북트레일러" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+       
+
+    </div>
+
+    <!--출판사 제공 카드리뷰
+-->
+    <div id = "books_card_review">
+        <h4>출판사 제공<br> 카드리뷰</h4>
+
+        <div class="swiper card_review">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src = "https://image.aladin.co.kr/product/33651/8/cardview/S472939930_t1.jpg" alt = "..."></div>
+              <div class="swiper-slide"><img src = "https://image.aladin.co.kr/product/33651/8/cardview/S472939930_t2.jpg" alt = "..."></div>
+              <div class="swiper-slide"><img src = "https://image.aladin.co.kr/product/33651/8/cardview/S472939930_t3.jpg" alt = "..."></div>
+              <div class="swiper-slide"><img src = "https://image.aladin.co.kr/product/33651/8/cardview/S472939930_t4.jpg" alt = "..."></div>
+              <div class="swiper-slide"><img src = "https://image.aladin.co.kr/product/33651/8/cardview/S472939930_t5.jpg" alt = "..."></div>
+              <div class="swiper-slide"><img src = "https://image.aladin.co.kr/product/33651/8/cardview/S472939930_t6.jpg" alt = "..."></div>
+              <div class="swiper-slide"><img src = "https://image.aladin.co.kr/product/33651/8/cardview/S472939930_t7.jpg" alt = "..."></div>
+              <div class="swiper-slide"><img src = "https://image.aladin.co.kr/product/33651/8/cardview/S472939930_t8.jpg" alt = "..."></div>
+              <div class="swiper-slide"><img src = "https://image.aladin.co.kr/product/33651/8/cardview/S472939930_t9.jpg" alt = "..."></div>
+            </div>
+            <div class="swiper-button-next card_review_btn"></div>
+            <div class="swiper-button-prev card_review_btn"></div>
+          </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".card_review", {
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+
+
+    <!--시리즈, 백희나 그림책 (총 3권 모두보기)-->
+    <div class = "product_options">
+
+        <h4>시리즈</h4>
+        
+        <div style="display: flex; width: 1200px; justify-content: space-between;">
+        <p><b>백희나 그림책</b> (총 3권 모두 보기)</p>
+
+        <div>
+        <button class ="option_btn1">신간알리미 신청</button>
+        <button class ="option_btn2">전체선택</button>
+        <button class ="option_btn3">보관함 담기</button>
+        <button class ="option_btn4">장바구니 담기</button>   
+        </div>
+        </div>
+
+        <span style="color:#df307f; font-weight: bold;">이 책의 구매가 :</span>
+        <input type="text" name="total" id="total" value="0" /><br><br><br>
+
+        <div style="display: flex; align-items: flex-end;">
+
+      <div class = "check_img">
+        <input type="checkbox" name="opt1" class="option" value="22500" onclick="book();" />
+        </div>
+      
+      <div class = "check_img">
+        <input type="checkbox" name="opt2" class="option" value="13500" onclick="book();" /> 
+      </div>
+     
+      <div class = "check_img">
+        <input type="checkbox" name="opt3" class="option" value="9000" onclick="book();" />
+      </div>
+ 
+      </div>
+    </div>
+
+   
+
+    <!--이 책이 포함된 세트 전체선택, 보관함 담기, 장바구니 담기-->
+    <div class = "product_options" style="height: 0px !important;">
+
+        <div style="display: flex; width: 1200px; justify-content: space-between; padding-top: 0px;">
+        <h3>이 책이 포함된 세트</h3>
+       
+
+        <div>
+          <button class ="option_btn2">전체선택</button>
+        <button class = "option_btn3">보관함 담기</button>
+        <button class ="option_btn4">장바구니 담기</button>   
+        </div>
+       
+        </div>
+
+        <p id="set_show" style="display: none; color: #df307f;">이 책의 구매가: 22,500</p>
+
+        <input type="checkbox" style="margin-top: 30px;" class = "check"><span>[세트] 알사탕 + 알사탕 제조법 - 전2권</span>
+
+        
+    </div>
+
+    <script src ="js/sub.js"></script>
+
+    <!--이벤트-->
+    <div id = "event_swiper">
+
+        <h3>이벤트</h3>
+        <div class="swiper event_swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src ="https://image.aladin.co.kr/img/bn/book/2024/01/m_2403014_heena_p.jpg" alt = "...">
+              <p> 알사탕 제조법 포함 국내도서 2만원 이상 구매 시, 알사탕 제조법 노트와 스티커</p>
+            </div>
+              <div class="swiper-slide"><img src ="https://image.aladin.co.kr/img/bn/book/2024/01/m_240322_picbook_p.jpg" alt = "..."><p>화제의 그림책! 에코백. 피크닉 매트. 테이블 매트 (대상도서 2만 원 이상 구매 시, 택 1)</p></div>
+              <div class="swiper-slide"><img src ="https://image.aladin.co.kr/img/bn/book/2023/01/m_220804_alarm_p.jpg" alt = "..."><p>[신간 저자 알리미]이벤트 대상 포함 유아.어린이 2만원 이상 담요, 안전커버, 손수건 등 택 1
+                </p></div>
+              <div class="swiper-slide"><img src ="https://image.aladin.co.kr/img/bn/book/2024/01/m_240314_march_p.jpg" alt = "...">
+            <p>3월 특별 선물. 집모양 정리함 · 메쉬 수납함 (이벤트 도서 포함 국내서·외서 5만원 이상)</p></div>
+              <div class="swiper-slide"><img src ="https://image.aladin.co.kr/img/bn/book/2021/01/m_210104_plus_p.jpg" alt = "...">
+            <p>이 달의 적립금 혜택</p></div>
+            <div class="swiper-slide"><img src ="https://image.aladin.co.kr/img/bn/book/2024/01/m_240307_monthlybook_p.jpg" alt = "...">
+                <p>함께 고르는 이달의 책. 투표하고 적립금 200원</p></div>
+       
+         
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+
+    </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".event_swiper", {
+      slidesPerView: 3,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+
+
+    <!--책소개-->
+    <div id = "about_books">
+
+        <h3>책소개</h3>
+        <p>꽃피는 봄날, 백희나의 신작 그림책이 나왔다. “나도 마법의 알사탕 먹고 싶다…”, “동동이의 알사탕은 어떻게 만들었을까?” 《알사탕》을 읽은 독자라면 한 번쯤 생각해 보았을 것이다. 이런 간절한 바람이 작가에게 영감이 되어, 독자에게 마법처럼, 선물처럼 돌아왔다.<br><br><br>
+
+          &lt;알사탕&gt;이 알사탕 ‘먹은’ 이야기였다면, 《알사탕 제조법》은 알사탕 ‘만드는’ 이야기이다. 이 책은 《알사탕》의 스핀오프로, 문방구 할아버지가 마음의 소리를 들려주는 신비한 알사탕 만드는 비법을 자세하게 알려준다. 스토리보울을 다시 열면서 펴내는 첫 작품이기도 하다. 작가는 “흰 도화지에 마음껏 그림을 그리던 어린 시절을 떠올리며, 자유로운 창작 환경을 만들고, 독자와 더 가깝게 소통하고 싶다”라며 스토리보울을 열게 된 짧은 소회를 밝혔다.
+            </p>
+    </div>
+
+    <!--저자 및 지은이 소개-->
+    <div id = "about_author">
+
+        <h3>저자 및 역자소개</h3>
+        <ul style="display: flex;">
+            <li><b>백희나</b></li>
+            <li>(지은이)</li>
+            <li><button class ="option_btn1">저자파일</button></li>
+            <li><button class ="option_btn1">신간알리미 신청</button></li>
+        </ul>
+
+        <div style="display: flex;">
+            <img src = "https://image.aladin.co.kr/author/photo/197950/197950_3.jpg" alt = "백희나저자">
+
+            <div>
+            <p style="margin-left: 30px;">
+                그림책 작가. 쓰고 그린 책으로 《구름빵》 《달 샤베트》 《어제저녁》 《삐약이 엄마》 《장수탕 선녀님》 《꿈에서 맛본 똥파리》 《이상한 엄마》 《알사탕》 《이상한 손님》 《나는 개다》 《연이와 버들 도령》 《알사탕 제조법》 등이 있습니다.
+                @baekheena
+            </p>
+
+            <ul style="padding-left: 17px;">
+                <li>수상 : 2022년 보스턴 글로브 혼북, 2020년 아스트리드 린드그렌상</li>
+                <li>최근작 : &lt;알사탕&gt;,&lt;알사탕 제조법&gt;, &lt;백희나 그림책 컬렉션 세트 - 전10권&gt; … 총 50종 (모두보기)</li>
+                <li>SNS : //twitter.com/heenastory</li>
+            </ul>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!--출판사 제공 책소개-->
+    <div id = "books_intro">
+        <h3>출판사 제공 <br> 책 소개</h3>
+        <img src ="https://image.aladin.co.kr/img/img_content/K092939512_02.jpg" alt = "...">
+    </div>
+
+    <!--책 줄거리-->
+
+    <div id = "books_preview_text">
+      <p>
+         <b>이 알사탕은 간절한 마음의 소리를 듣게 해주는
+            신비한 알사탕이다.</b>
+            <br>
+            <br>
+            <b>#마음의 소리를 들려주는 알사탕 비법서 공개</b>
+            “그건 알사탕이야. 아주 달지.” 역시 맞았다. 동동이가 새 구슬을 사러 들어간 문방구 할아버지가 바로 알사탕을 만든 장본인이다! 할아버지의 정체가 궁금하다. 마음의 소리를 들려주는 신비한 알사탕은 어떻게 만들었을까? 그 비법을 파헤치러 시간을 거슬러가 보자!
+            <br>
+            <br>
+           <b>#《알사탕제조법》과 스토리보울의 새로운 시작</b> 
+            꽃피는 봄날, 백희나의 신작 그림책이 나왔다. “나도 마법의 알사탕 먹고 싶다…”, “동동이의 알사탕은 어떻게 만들었을까?” 《알사탕》을 읽은 독자라면 한 번쯤 생각해 보았을 것이다. 이런 간절한 바람이 작가에게 영감이 되어, 독자에게 마법처럼, 선물처럼 돌아왔다.
+            《알사탕》이 알사탕 ‘먹은’ 이야기였다면, 《알사탕 제조법》은 알사탕 ‘만드는’ 이야기... <span class="more_btn" style="color: #7e7e7e; text-decoration: none;">더보기<img src = "https://image.aladin.co.kr/img/shop/2018/icon_arrow_more.png" alt = "아래버튼"></span>
+        
+      </p>
+    </div>
+
+    <div id = "books_text">
+        <p></p>
+
+      <button class="close_btn">닫기</button>
+      </div>
+  
+
+    <!--이 상품을 구입하신 분들이 다음 상품도 구입하셨습니다.-->
+
+    <div id ="more_buy">
+
+        <h4>이 상품을 구입하신 분들이 다음 상품도 구입하셨습니다.</h4>
+
+        <div class="swiper purchase_swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"></div>
+              <div class="swiper-slide"></div>
+              <div class="swiper-slide"></div>
+              <div class="swiper-slide"></div>
+              <div class="swiper-slide"></div>
+              <div class="swiper-slide"></div>
+              <div class="swiper-slide"></div>
+              <div class="swiper-slide"></div>
+              <div class="swiper-slide"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+    </div>
+
+      <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".purchase_swiper", {
+      slidesPerView: 6,
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      }
+    });
+  </script>
+
+
+    <!--반품/교환 안내-->
+    <div id = "refund_inform">
+
+        <h3>반품/교환안내</h3>
+        <table>
+            <tr>
+                <td>반품/교환 방법</td>
+                <td>"나의계정>주문조회>반품/교환신청", 1:1상담 > 반품/교환 또는 고객센터(1544-2514)
+                    판매자 배송상품은 판매자와 반품/교환이 협의된 상품에 한해 가능</td>
+            </tr>
+
+            <tr>
+                <td>반품/교환 가능기간</td>
+                <td>o 변심반품 수령 후 20일(단, 중고매장 상품은 구매 후 구매 다음날로 부터 7일, 회원직거래 중고상품은 출고일로 부터 구매확정 전 상태로 6일, 전자책 단말기 등 전자제품은 수령 후 7일 이내 제품 포장 미개봉시, eBook은 결제 후 다운로드 받지 않은 상태, 웹뷰어로 보거나 듣지 않은 상태에서 20일 이내)<br><br>
+
+                    o 파본 등 상품결함 시 '문제점 발견 후 30일(단, 수령일로 부터 3개월)' 이내</td>
+            </tr>
+
+            <tr>
+                <td>반품/교환 비용</td>
+                <td>o 변심 혹은 구매착오의 경우에만 반송료 고객 부담
+                    o 해외직배송도서의 변심 혹은 구매착오로 인한 취소/반품은 판매가의 20% 취소수수료 고객 부담<br><br>
+                    
+                    * 취소수수료 : 수입제반비용(국내 까지의 운송비, 관세사비, 보세창고료, 내륙 운송비, 통관비 등)과 재고리스크(미판매 리스크, 환차손)에 따른 비용 등
+                    단, 아래의 주문/취소 조건인 경우, 취소 수수료 면제
+                     - 오늘 00시~06시 주문을 오늘 06시 이전 취소
+                     - 오늘 06시 이후 주문 후 다음 날 06시 이전 취소</td>
+            </tr>
+
+            <tr>
+                <td>반품/교환 불가 사유</td>
+                <td>o 소비자의 책임 있는 사유로 상품 등이 손실 또는 훼손된 경우<br>
+                    o 소비자의 사용, 포장 개봉에 의해 상품 등의 가치가 현저히 감소한 경우<br>
+                    예) 전자책 단말기,가전제품, 래핑이 제거된 만화책/라이트노벨/수험서/문제집류
+                    o 복제가 가능 또는 단기간 내 완독 가능 상품의 자체 포장이나 래핑을 훼손한 경우<br>
+                    예) 음반,DVD,비디오,Blu-ray,소프트웨어, 잡지, 영상 화보집<br>
+                    o 소비자 요청에 의한 주문 제작 상품<br>(분철도서, POD 도서 등)<br>
+                    o 세트 상품 일부만 반품 불가(전체 반품 후 낱권 재구매)<br>
+                    o 디지털 컨텐츠인 eBook, 오디오북 등을 1회 이상 다운로드 받았거나 웹뷰어로 보기 혹은 듣기를 한 경우<br>
+                    o 대여 기간이 종료된 eBook, 오디오북 대여제 상품<br>
+                    o 신선도 문제로 일정 기한 경과 시 상품 가치가 현저하게 감소하는 상품 (원두, 콜드브루, 드립백 등)</td>
+            </tr>
+
+            <tr>
+                <td>소비자 피해보상<br>
+                    환불지연에 따른 배상</td>
+                <td>o 상품의 불량에 의한 반품, 교환, A/S, 환불, 품질보증 및 피해보상 등에 관한 사항은 소비자분쟁해결기준 (공정거래위원회 고시)에 준하여 처리됨<br>
+                    o 대금 환불 및 환불 지연에 따른 배상금 지급 조건, 절차 등은 전자상거래 등에서의 소비자 보호에 관한 법률에 따라 처리함</td>
+            </tr>
+           
+        </table>
+    </div>
+
+
+    <footer>
+
+        <div id="footer_header">
+    
+          <div id="footer_inner">
+            <span>공지사항</span>
+            <a href="#">문화상품권-교보캐시 전환 서비스 일시 중단 안내 (3/21)</a>
+            <a href="#" style=" font-size: 15px; font-weight: 500; color: black; text-decoration: none;">더보기 +</a>
+            <span>당첨자 발표</span>
+            <a href="#">[문학/만화] MD가 골라드림①밸런타인 로맨스 당첨자 발표</a>
+            <a href="#">더보기 +</a>
+    
+          </div>
+    
+    
+          <div id="footer_main">
+    
+            <div>
+              <div>
+                <ul style="display: flex; flex-direction: column;">
+                  <li><b>회원혜택</b></li>
+                  <li>Prestige Lounge</li>
+                  <li>신규회원 혜택</li>
+                  <li>등급별 혜택</li>
+                  <li>출석체크</li>
+                </ul>
+              </div>
+    
+              <div>
+                <ul style="display: flex; flex-direction: column;">
+                  <li><b>쇼핑 TIP</b></li>
+                  <li>제휴포인트/상품권</li>
+                  <li>교보문고 기프트카드</li>
+                  <li>대량구매</li>
+                  <li>리딩트리서비스(독서경영)</li>
+                </ul>
+              </div>
+    
+    
+              <div>
+                <ul style="display: flex; flex-direction: column;">
+                  <li><b>빠른 서비스</b></li>
+                  <li>북클럽카드 등록</li>
+                  <li>영수증 후 적립</li>
+                  <li>교보캐시 조회·충전</li>
+                  <li>교보e캐시 조회·충전</li>
+                  <li>기프트카드 조회·충전</li>
+                  <li>협력사 여러분</li>
+                </ul>
+              </div>
+    
+              <div>
+                <ul style="display: flex; flex-direction: column;">
+                  <li><b>교보문고 소식</b></li>
+                  <li>인스타그램(교보문고)</li>
+                  <li>인스타그램(인터넷교보문고)</li>
+                  <li>페이스북(교보문고)</li>
+                  <li>트위터</li>
+                  <li>유튜브</li>
+                </ul>
+              </div>
+    
+              <div>
+                <ul style="display: flex; flex-direction: column;">
+                  <li><b>FAQ</b></li>
+                  <li>주문·결제</li>
+                  <li>eBook</li>
+                  <li>도서·상품정보</li>
+                </ul>
+    
+              </div>
+            </div>
+          </div>
+    
+        </div>
+    
+        <div id="footer_body">
+    
+          <div id="footer_body_inner">
+            <div id="footer_logo_box">
+              <img src="img/img_logo_kyobo@2x.png" alt="...">
+    
+    
+              <div>
+                <button class="footer_list"> Family site</button>
+    
+                <div>
+                  <a href="#"><img src="img/btn_footer_sns_youtube@2x.png" alt="..."></a>
+                  <a href="#"><img src="img/btn_footer_sns_fb@2x.png" alt="..."></a>
+                  <a href="#"><img src="img/btn_footer_sns_insta@2x.png" alt="..."></a>
+                </div>
+              </div>
+            </div>
+            <div id="footer_body_left">
+    
+              <div id="footer_left_nav">
+                <ul>
+                  <li>회사소개</li>
+                  <li>이용약관</li>
+                  <li>개인정보처리방침</li>
+                  <li>청소년보호정책</li>
+                  <li>대량주문안내</li>
+                  <li>협력사여러분</li>
+                  <li>채용정보</li>
+                  <li>광고소개</li>
+                </ul>
+                <br>
+                <ul>
+                  <li>대표이사 : 안병헌, 김상훈</li>
+                  <li>서울특별시 종로구 종로 1</li>
+                  <li>사업자등록번호: 102-81-11670</li>
+                </ul>
+    
+                <ul>
+                  <li><b>대표전화: 1544-1900(발신자 부담전화)</b></li>
+                  <li>FAX : 0502-987-5711(지역번호 공통)</li>
+                  <li>서울특별시 통신판매업신고번호: 제 653호 <button>사업자정보확인</button></li>
+                </ul>
+    
+    
+              </div>
+    
+    
+            </div>
+    
+    
+            <div id="footer_body_right">
+    
+              <div>
+                <span>토스페이먼츠 구매안전서비스</span>
+                <button>서비스 가입 확인</button>
+              </div>
+    
+              <br>
+              <div>
+                <span>고객님은 안전거래를 위해 현금 등으로 결제시 저희 쇼핑몰에서 가입한 토스페이먼츠와 구매안전서비스를 이용하실 수 있습니다.</span>
+              </div>
+              <br>
+    
+              <div style="display: flex; justify-content: space-around;">
+                <div style="display: flex;">
+                  <a href="#"><img src="img/img_mark_isms@2x.png" alt="..." style="width: 33px; height: 33px;"></a>
+                  <span>정보보호관리체계<br>ISMS 인증획득</span>
+                </div>
+    
+                <div>
+                  <span>[인증범위] 인터넷 교보문고 및 브랜드 서비스 운영</span>
+                  <br>
+                  <span>[유효기간] 2023.11.15~2026.11.14</span>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+    
+    </footer>
+
+
+
+    
+</body>
+</html>
